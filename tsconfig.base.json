@@ -15,9 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@metamorfoza/api": ["libs/shared-types/src/index.ts"],
-      "@metamorfoza/shared-types": ["libs/shared-types/src/index.ts"],
-      "@metamorfoza/shared-validation": ["libs/shared-validation/src/index.ts"]
+      "@metamorfoza/api": ["./apps/api/src/index.ts"],
+      "@metamorfoza/shared-types": ["./libs/shared-types/src/index.ts"],
+      "@metamorfoza/shared-validation": ["./libs/shared-validation/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
